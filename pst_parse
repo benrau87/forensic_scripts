@@ -1,3 +1,5 @@
+readpst -D directory/file.pst  > outfile
+
 Find all IP addresses withing files of the pwd
 grep -Eroh '(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)' | sort |  uniq  > ips
 
